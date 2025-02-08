@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">QuizMania</string>
+
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Custom button styles -->
+    <style name="GetStartedButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@color/getStartedButtonColor</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ExitButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@color/exitButtonColor</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

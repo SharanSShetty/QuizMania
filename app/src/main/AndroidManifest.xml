@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/quizs"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/quizs"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuizMania"
+        tools:targetApi="31">
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".Start"
+            android:exported="false" />
+        <activity
+            android:name=".register"
+            android:exported="false" />
+
+        <activity
+            android:name=".python3"
+            android:exported="false" />
+        <activity
+            android:name=".python2"
+            android:exported="false" />
+        <activity
+            android:name=".CorrectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".easyqu"
+            android:exported="false" />
+        <activity
+            android:name=".pylevel"
+            android:exported="false" />
+
+        <activity
+            android:name=".clevel"
+            android:exported="true" />
+
+        <activity
+            android:name=".c1"
+            android:exported="true" />
+
+        <activity
+            android:name=".c2"
+            android:exported="true" />
+
+        <activity
+            android:name=".c3"
+            android:exported="true" />
+
+        <activity
+            android:name=".jlevel"
+            android:exported="true" />
+
+        <activity
+            android:name=".j1"
+            android:exported="true" />
+
+        <activity
+            android:name=".j2"
+            android:exported="true" />
+
+        <activity
+            android:name=".j3"
+            android:exported="true" />
+
+        <activity
+            android:name=".resultpy2"
+            android:exported="true" />
+
+        <activity
+            android:name=".p2answer"
+            android:exported="true" />
+
+        <activity
+            android:name=".resultpy3"
+            android:exported="true" />
+
+        <activity
+            android:name=".p3answer"
+            android:exported="true" />
+
+        <activity
+            android:name=".c1result"
+            android:exported="true" />
+
+        <activity
+            android:name=".canswer"
+            android:exported="true" />
+
+        <activity
+            android:name=".c2result"
+            android:exported="true" />
+
+        <activity
+            android:name=".c2answer"
+            android:exported="true" />
+
+        <activity
+            android:name=".c3result"
+            android:exported="true" />
+
+        <activity
+            android:name=".c3answer"
+            android:exported="true" />
+
+        <activity
+            android:name=".j1result"
+            android:exported="true" />
+
+        <activity
+            android:name=".j1answer"
+            android:exported="true" />
+
+        <activity
+            android:name=".j2result"
+            android:exported="true" />
+
+        <activity
+            android:name=".j2answer"
+            android:exported="true" />
+
+        <activity
+            android:name=".j3result"
+            android:exported="true" />
+
+        <activity
+            android:name=".j3answer"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

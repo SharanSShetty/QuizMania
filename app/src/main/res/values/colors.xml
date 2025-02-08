@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#8692f7</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="getStartedButtonColor">#4CAF50</color>
+    <color name="exitButtonColor">#FFA000</color>
+    <color name="background_color">#2C3E50</color>
+    <color name="easy_color">#27AE60</color>
+    <color name="medium_color">#F1C40F</color>
+    <color name="hard_color">#E74C3C</color>
+    <color name="score_color">#3498DB</color>
+    <color name="dark_black">#000000</color>
+    <color name="pass_color">#4CAF50</color>  <!-- Green for pass -->
+    <color name="fail_color">#F44336</color>  <!-- Red for fail -->
+</resources>
